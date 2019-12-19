@@ -1,0 +1,14 @@
+binding: user.agent=safari
+Compiling module com.ertelecom.gwt.GwtApp
+   Unification traversed 1522 fields and methods and 806 types. 51 are considered part of the current module and 59 had all of their fields and methods traversed.
+   [WARN] Some stale types ([com.ertelecom.gwt.client.ItemsTableWidget$7, com.ertelecom.gwt.client.ItemsTableWidget$6, com.ertelecom.gwt.client.ItemsTableWidget$9, com.ertelecom.gwt.client.ItemsTableWidget$8, com.ertelecom.gwt.client.ItemsTableWidget$ItemsTableBinder, com.ertelecom.gwt.client.ItemsTableWidget$3, com.ertelecom.gwt.client.ItemsTableWidget$2, com.ertelecom.gwt.client.ItemsTableWidget$5, com.ertelecom.gwt.client.ItemsTableWidget$4, com.ertelecom.gwt.client.ItemsTableWidget$1, com.ertelecom.gwt.client.ItemsClient, com.ertelecom.gwt.client.ItemsClient_Generated_RestServiceProxy_$2, com.ertelecom.gwt.client.ItemsClient_Generated_RestServiceProxy_$3, com.ertelecom.gwt.client.ItemsClient_Generated_RestServiceProxy_$4, com.ertelecom.gwt.client.ItemsTableWidget$7$1, com.ertelecom.gwt.client.ItemsClient_Generated_RestServiceProxy_$5, com.ertelecom.gwt.client.ItemsTableWidget$11, com.ertelecom.gwt.client.ItemsClient_Generated_RestServiceProxy_$6, com.ertelecom.gwt.client.ItemsClient_Generated_RestServiceProxy_$7, com.ertelecom.gwt.client.ItemsClient_Generated_RestServiceProxy_$8, com.ertelecom.gwt.client.ItemsTableWidget$10, com.ertelecom.gwt.client.ItemsTableWidget, com.ertelecom.gwt.client.ItemsTableWidget_ItemsTableBinderImpl$Widgets, com.ertelecom.gwt.client.ItemsTableWidget_ItemsTableBinderImpl, com.ertelecom.gwt.client.ItemsClient_Generated_RestServiceProxy_]) were not reprocessed as was expected. This is either a compiler bug or a Generator has legitimately stopped creating these types.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 51 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 2,335s
+Linking into C:\Work\Java\IdeaProjects\spring-gwt-jwt\gwtapp\target\gwt\devmode\work\com.ertelecom.gwt.GwtApp\compile-2\war\gwtapp; Writing extras to C:\Work\Java\IdeaProjects\spring-gwt-jwt\gwtapp\target\gwt\devmode\work\com.ertelecom.gwt.GwtApp\compile-2\extras\gwtapp
+   Link succeeded
+   Linking succeeded -- 0,165s
+2,932s total -- Compile completed
