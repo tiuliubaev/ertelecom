@@ -32,13 +32,17 @@ public class LoginForm extends Composite {
     private TasksTableWidget tasksTableWidget;
     private TabLayoutPanel tabPanel;
 
+    private EmployeesTableWidget employeesTableWidget;
+
+
     private static LoginForm.LoginFormBinder uiBinder = GWT.create(LoginForm.LoginFormBinder.class);
 
-    public LoginForm(TabLayoutPanel tabPanel, TasksTableWidget tasksTableWidget) {
+    public LoginForm(TabLayoutPanel tabPanel, TasksTableWidget tasksTableWidget, EmployeesTableWidget employeesTableWidget) {
         this.initWidget(uiBinder.createAndBindUi(this));
         this.form.setAction(Defaults.getServiceRoot().concat("tasks"));
         this.tasksTableWidget = tasksTableWidget;
         this.tabPanel = tabPanel;
+        this.employeesTableWidget = employeesTableWidget;
     }
 
     @UiHandler("form")
@@ -68,6 +72,7 @@ public class LoginForm extends Composite {
                 GWT.log(jwtAuthResponseDto.getToken());
                 Storage.getLocalStorageIfSupported().setItem("jwt", "Bearer " + jwtAuthResponseDto.getToken());
                 tasksTableWidget.refresh();
+                employeesTableWidget.refresh();
                 tabPanel.selectTab(1);
             }
         });

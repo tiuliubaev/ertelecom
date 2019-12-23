@@ -129,7 +129,7 @@ public class TasksTableWidget extends Composite {
                 GWT.log(throwable.toString());
                 GWT.log(throwable.getMessage());
                 GWT.log("Status code: " + method.getResponse().getStatusCode());
-                Window.alert("Невозможно получить список items: Сервер не отвечает");
+                Window.alert("Невозможно получить список tasks: Сервер не отвечает");
             }
 
             @Override
@@ -147,13 +147,12 @@ public class TasksTableWidget extends Composite {
         String token = Storage.getLocalStorageIfSupported().getItem("jwt");
         GWT.log("STORAGE: " + token);
         client.getAllTasks(token, status, executor, new MethodCallback<List<TaskDto>>() {
-//        client.getAllTasks(status, executor, new MethodCallback<List<TaskDto>>() {
             @Override
             public void onFailure(Method method, Throwable throwable) {
                 GWT.log(throwable.toString());
                 GWT.log(throwable.getMessage());
                 GWT.log("Status code: " + method.getResponse().getStatusCode());
-                Window.alert("Невозможно получить список items: Сервер не отвечает");
+                Window.alert("Невозможно получить список tasks: Сервер не отвечает");
             }
 
             @Override
@@ -176,7 +175,7 @@ public class TasksTableWidget extends Composite {
                 GWT.log(throwable.toString());
                 GWT.log(throwable.getMessage());
                 GWT.log("Status code: " + method.getResponse().getStatusCode());
-                Window.alert("Невозможно получить список items: Сервер не отвечает");
+                Window.alert("Невозможно получить список tasks: Сервер не отвечает");
             }
 
             @Override

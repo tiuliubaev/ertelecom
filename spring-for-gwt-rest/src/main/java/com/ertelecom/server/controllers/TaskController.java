@@ -1,44 +1,49 @@
 package com.ertelecom.server.controllers;
 
 import com.ertelecom.gwt.common.EmployeeDto;
-import com.ertelecom.gwt.common.ErrorDto;
 import com.ertelecom.gwt.common.StatusDto;
 import com.ertelecom.gwt.common.TaskDto;
 import com.ertelecom.server.entities.Employee;
 import com.ertelecom.server.entities.Task;
-import com.ertelecom.server.exceptions.ResourceAlreadyExistException;
 import com.ertelecom.server.services.EmployeeService;
 import com.ertelecom.server.services.TaskService;
-import org.hibernate.mapping.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
 @CrossOrigin
+
 public class TaskController {
     private TaskService taskService;
     private EmployeeService employeeService;
+//    private UserDetailsService userDetailsService;
 
     @Autowired
     public TaskController(TaskService taskServiceJPA, EmployeeService employeeServiceJPA) {
         this.taskService = taskServiceJPA;
         this.employeeService = employeeServiceJPA;
+//        this.userDetailsService = userDetailsService;
     }
 
 
     @GetMapping("/tasks")
     @ResponseStatus(HttpStatus.OK)
-    public List<TaskDto> showHomePage(@RequestParam(value = "status", required = false) String status, @RequestParam(value = "executor", required = false) Employee executor, @RequestParam(value = "id", required = false) Long id) {
+    public List<TaskDto> showHomePage(Model model, @RequestParam(value = "status", required = false) String status, @RequestParam(value = "executor", required = false) Employee executor, @RequestParam(value = "id", required = false) Long id, Principal principal) {
+        Employee employee = employeeService.findOneByUserName(principal.getName());
+        StringBuilder info = new StringBuilder();
+        info.append("Id: ").append(employee.getId()).append("\n");
+        info.append("UserName").append(employee.getUsername()).append("\n");
+        info.append("Roles").append(employee.getRoles());
+        model.addAttribute("userinfo", info.toString());
         List<TaskDto> tasks = taskService.getAll(status, executor).stream().map(task -> task.tasktoDto()).collect(Collectors.toList());
         return tasks;
     }
@@ -57,11 +62,11 @@ public class TaskController {
         return new ResponseEntity<String>("Successfully removed", HttpStatus.OK);
     }
 
-    @GetMapping("/employees")
-    public String EmployeesList(Model model, @RequestParam(value = "job_title", required = false) String job_title) {
-        model.addAttribute("employees", employeeService.getAllEmployees(job_title));
-        return "employees_list";
-    }
+//    @GetMapping("/employees")
+//    public String EmployeesList(Model model, @RequestParam(value = "job_title", required = false) String job_title) {
+//        model.addAttribute("employees", employeeService.getAllEmployees(job_title));
+//        return "employees_list";
+//    }
 
     @GetMapping("/tasks/executors")
     @ResponseStatus(HttpStatus.OK)

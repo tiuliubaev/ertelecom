@@ -43,7 +43,8 @@ public class TaskService {
         return new TaskDto(task.getId(), task.getName(), task.getOwner().employeetoDto(), task.getExecutor().employeetoDto(), task.getDescription(), task.getStatus().getRusTitle());
     }
 
-    @Secured("hasRole('ROLE_ADMIN')")
+//    @Secured("hasRole('ROLE_ADMIN')")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void delete(Long taskId) {
         taskRepository.deleteById(taskId);
     }

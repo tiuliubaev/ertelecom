@@ -13,6 +13,7 @@ public class GwtApp implements EntryPoint {
 
         VerticalPanel verticalPanel = new VerticalPanel();
         verticalPanel.add(new FindTaskFormWidget(tasksTableWidget));
+
         verticalPanel.add(tasksTableWidget);
         verticalPanel.add(new AddTaskFormWidget(tasksTableWidget));
 
@@ -21,17 +22,28 @@ public class GwtApp implements EntryPoint {
         tabPanel.setAnimationDuration(100);
         tabPanel.getElement().getStyle().setMarginBottom(10.0, Style.Unit.PX);
 
-        LoginForm loginForm = new LoginForm(tabPanel, tasksTableWidget);
+        EmployeesTableWidget employeesTableWidget = new EmployeesTableWidget();
+        VerticalPanel verticalPanel1 = new VerticalPanel();
+        verticalPanel1.add(employeesTableWidget);
+
+
+//        UserInfoWidget userInfoWidget = new UserInfoWidget();
+//        verticalPanel1.add(userInfoWidget);
+
+        LoginForm loginForm = new LoginForm(tabPanel, tasksTableWidget, employeesTableWidget);
+
 
         tabPanel.add(loginForm, "Login");
-
         tabPanel.add(verticalPanel, "Main Page");
+        tabPanel.add(verticalPanel1, "User");
+
+
         tabPanel.setHeight("800px");
 
         tabPanel.selectTab(0);
-        tabPanel.ensureDebugId("cwTabPanel");
-        tabPanel.getTabWidget(0).setVisible(false);
-        tabPanel.getTabWidget(1).setVisible(false);
+//        tabPanel.ensureDebugId("cwTabPanel");
+//        tabPanel.getTabWidget(0).setVisible(false);
+//        tabPanel.getTabWidget(1).setVisible(false);
 
         RootPanel.get().add(tabPanel);
     }
