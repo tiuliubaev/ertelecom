@@ -1,0 +1,13 @@
+binding: user.agent=safari
+Compiling module com.ertelecom.gwt.GwtApp
+   Unification traversed 1074 fields and methods and 649 types. 16 are considered part of the current module and 24 had all of their fields and methods traversed.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 16 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 1,304s
+Linking into C:\Work\Java\IdeaProjects\spring-gwt-jwt\gwtapp\target\gwt\devmode\work\com.ertelecom.gwt.GwtApp\compile-3\war\gwtapp; Writing extras to C:\Work\Java\IdeaProjects\spring-gwt-jwt\gwtapp\target\gwt\devmode\work\com.ertelecom.gwt.GwtApp\compile-3\extras\gwtapp
+   Link succeeded
+   Linking succeeded -- 0,095s
+1,503s total -- Compile completed

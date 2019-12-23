@@ -1,13 +1,263 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28850e60-75a3-4864-94b0-aec0821806c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/EmployeesClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/EmployeesTable.ui.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/EmployeesTableWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/UserInfo.ui.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/UserInfoWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/controllers/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-gwt-jwt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-gwt-jwt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/META-INF/gwt-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/gwt-common-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/gwt-common-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/gwt-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/gwt-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/GwtApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/GwtApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/LoginForm.ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/LoginForm.ui.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/TasksTableWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/src/main/java/com/ertelecom/gwt/client/TasksTableWidget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/FindTaskFormWidget$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/FindTaskFormWidget$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/FindTaskFormWidget$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/FindTaskFormWidget$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/FindTaskFormWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/FindTaskFormWidget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/GwtApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/GwtApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/LoginForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/LoginForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/LoginForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/TasksTableWidget$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/TasksTableWidget$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/TasksTableWidget$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/TasksTableWidget$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/TasksTableWidget.class" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/classes/com/ertelecom/gwt/client/TasksTableWidget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/lib/gwt-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/com.ertelecom.gwt-1.0-SNAPSHOT/WEB-INF/lib/gwt-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C92EF0D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C935436" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B69D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B8FF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B922" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B95A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B982" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B991" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B9A3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B9C4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B9CF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B9E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93B9FB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93BA02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93BA0B" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C93BA13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1C9BEEC5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt-unitCache/gwt-unitCache-7a87e060bbf129386b7ae772459fb9f87297c332-FF35F588CF7564DE259004F02565B00E-0000016F1CA0D5F3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-1/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-1/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-10/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-10/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-11/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-11/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-12/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-12/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-13/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-13/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-14/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-15/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-16/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-17/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-18/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-19/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/extras/gwtapp/symbolMaps/BB400DF442C6FD9F18102A1E39DCC59A.symbolMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/extras/gwtapp/symbolMaps/BB400DF442C6FD9F18102A1E39DCC59A_sourceMap0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/AddTaskFormWidget_AddItemFormBinderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/AddTaskFormWidget_AddItemFormBinderImpl_GenBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/AddTaskFormWidget_AddItemFormBinderImpl_GenBundle_default_InlineClientBundleGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/AddTaskFormWidget_AddItemFormBinderImpl_TemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/AuthClient_Generated_RestServiceProxy_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/FindTaskFormWidget_AddItemFormBinderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/FindTaskFormWidget_AddItemFormBinderImpl_GenBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/FindTaskFormWidget_AddItemFormBinderImpl_GenBundle_default_InlineClientBundleGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/FindTaskFormWidget_AddItemFormBinderImpl_TemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl_GenBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl_GenBundle_default_InlineClientBundleGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl_TemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/TasksTableWidget_ItemsTableBinderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/TasksTableWidget_ItemsTableBinderImpl_GenBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/client/TasksTableWidget_ItemsTableBinderImpl_GenBundle_default_InlineClientBundleGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/common/JwtAuthRequestDto_Generated_JsonEncoderDecoder_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/gen/com/ertelecom/gwt/common/JwtAuthResponseDto_Generated_JsonEncoderDecoder_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/war/WEB-INF/deploy/gwtapp/symbolMaps/BB400DF442C6FD9F18102A1E39DCC59A.symbolMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/war/WEB-INF/deploy/gwtapp/symbolMaps/BB400DF442C6FD9F18102A1E39DCC59A_sourceMap0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/war/gwtapp/BB400DF442C6FD9F18102A1E39DCC59A.cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/war/gwtapp/compilation-mappings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/war/gwtapp/compilation-mappings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/war/gwtapp/gwtapp.nocache.js" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-2/war/gwtapp/gwtapp.nocache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-20/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-21/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-22/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-23/compile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/extras/gwtapp/symbolMaps/BB400DF442C6FD9F18102A1E39DCC59A.symbolMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/extras/gwtapp/symbolMaps/BB400DF442C6FD9F18102A1E39DCC59A_sourceMap0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/AddTaskFormWidget_AddItemFormBinderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/AddTaskFormWidget_AddItemFormBinderImpl_GenBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/AuthClient_Generated_RestServiceProxy_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/FindTaskFormWidget_AddItemFormBinderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/FindTaskFormWidget_AddItemFormBinderImpl_GenBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/FindTaskFormWidget_AddItemFormBinderImpl_GenBundle_default_InlineClientBundleGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/FindTaskFormWidget_AddItemFormBinderImpl_TemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl_GenBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl_GenBundle_default_InlineClientBundleGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl_TemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/TasksClient_Generated_RestServiceProxy_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/TasksTableWidget_ItemsTableBinderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/client/TasksTableWidget_ItemsTableBinderImpl_GenBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/common/JwtAuthRequestDto_Generated_JsonEncoderDecoder_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/common/JwtAuthResponseDto_Generated_JsonEncoderDecoder_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/common/StatusDto_Generated_JsonEncoderDecoder_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/gen/com/ertelecom/gwt/common/TaskDto_Generated_JsonEncoderDecoder_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/war/WEB-INF/deploy/gwtapp/symbolMaps/BB400DF442C6FD9F18102A1E39DCC59A.symbolMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/war/WEB-INF/deploy/gwtapp/symbolMaps/BB400DF442C6FD9F18102A1E39DCC59A_sourceMap0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/war/gwtapp/BB400DF442C6FD9F18102A1E39DCC59A.cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/war/gwtapp/compilation-mappings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/war/gwtapp/compilation-mappings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/war/gwtapp/gwtapp.nocache.js" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-3/war/gwtapp/gwtapp.nocache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-4/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-4/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/extras/gwtapp/symbolMaps/0E925D6984D1A7AE29CA9EF8F04C9ED3.symbolMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/extras/gwtapp/symbolMaps/0E925D6984D1A7AE29CA9EF8F04C9ED3_sourceMap0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/gen/com/ertelecom/gwt/client/AuthClient_Generated_RestServiceProxy_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl_GenBundle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl_GenBundle_default_InlineClientBundleGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/gen/com/ertelecom/gwt/client/LoginForm_LoginFormBinderImpl_TemplateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/gen/com/ertelecom/gwt/common/JwtAuthRequestDto_Generated_JsonEncoderDecoder_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/gen/com/ertelecom/gwt/common/JwtAuthResponseDto_Generated_JsonEncoderDecoder_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/war/WEB-INF/deploy/gwtapp/symbolMaps/0E925D6984D1A7AE29CA9EF8F04C9ED3.symbolMap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/war/WEB-INF/deploy/gwtapp/symbolMaps/0E925D6984D1A7AE29CA9EF8F04C9ED3_sourceMap0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/war/gwtapp/0E925D6984D1A7AE29CA9EF8F04C9ED3.cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/war/gwtapp/compilation-mappings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/war/gwtapp/compilation-mappings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/war/gwtapp/gwtapp.nocache.js" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-5/war/gwtapp/gwtapp.nocache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-6/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-6/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-7/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-7/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-8/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-8/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-9/compile.log" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/gwt/devmode/work/com.ertelecom.gwt.GwtApp/compile-9/compile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gwtapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/gwtapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/configs/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/configs/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/controllers/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/controllers/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/repositories/EmployeeSpecifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/repositories/EmployeeSpecifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/services/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/services/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/src/main/java/com/ertelecom/server/services/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/configs/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/configs/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/controllers/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/controllers/TaskController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/entities/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/entities/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/repositories/EmployeeSpecifications.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/repositories/EmployeeSpecifications.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/services/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/services/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/services/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-for-gwt-rest/target/classes/com/ertelecom/server/services/TaskService.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson_18" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1VBpxYpGVf0Y32jceqHgv7zGqds" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VCQp3xle5GV6N70AJJe4sjlQsY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RespApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ertelecom.server.RespApplication" />
+      <module name="spring-for-gwt-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ertelecom.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RespApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="18">
+      <created>1576648894840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576648894840</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1576736992875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576736992875</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28850e60-75a3-4864-94b0-aec0821806c6" name="Default Changelist" comment="" />
+      <created>1576754776942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576754776942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="18" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>

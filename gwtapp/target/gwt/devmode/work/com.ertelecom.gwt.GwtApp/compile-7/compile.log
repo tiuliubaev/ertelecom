@@ -1,0 +1,10 @@
+binding: user.agent=safari
+Compiling module com.ertelecom.gwt.GwtApp
+   Ignored 1 unit with compilation errors in first pass.
+Compile with -strict or with -logLevel set to TRACE or DEBUG to see all errors.
+   Finding entry point classes
+      Tracing compile failure path for type 'com.ertelecom.gwt.client.GwtApp'
+         [ERROR] Errors in 'file:/C:/Work/Java/IdeaProjects/spring-gwt-jwt/gwtapp/src/main/java/com/ertelecom/gwt/client/GwtApp.java'
+            [ERROR] Line 33: The constructor LoginForm(TabLayoutPanel, TasksTableWidget) is undefined
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+[ERROR] Compiler returned false

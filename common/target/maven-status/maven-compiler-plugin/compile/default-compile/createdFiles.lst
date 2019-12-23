@@ -1,0 +1,7 @@
+com\ertelecom\gwt\common\ErrorDto.class
+com\ertelecom\gwt\common\UserDto.class
+com\ertelecom\gwt\common\StatusDto.class
+com\ertelecom\gwt\common\EmployeeDto.class
+com\ertelecom\gwt\common\JwtAuthRequestDto.class
+com\ertelecom\gwt\common\TaskDto.class
+com\ertelecom\gwt\common\JwtAuthResponseDto.class
